@@ -44,10 +44,9 @@ public class Login_step_Definations {
     }
 
 
-
-
-
-
+    @Then("the user should not be able to log in")
+    public void theUserShouldNotBeAbleToLogIn() {
+    }
 }
 
 

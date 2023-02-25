@@ -8,15 +8,15 @@ import org.junit.runner.RunWith;
         plugin = {"html:target/cucumber-report.html" },    //especially for reports
         features = "src/test/resources/features",
         glue = "com/cydeo/step_definitions",
-        tags = "@validLogin",
-        dryRun = false,     //in order to get snippets by making true or in order to run codes make it false
+        tags = "@invalidLoginWithParamsSceOutLine",
+        dryRun =false,     //in order to get snippets by making true or in order to run codes make it false
         publish = true    //in order to generate public link for reports
 
 )
 
 
 
-public class Road_Runner {
+public class CukesRunner {
 
 }
 
